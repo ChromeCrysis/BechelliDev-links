@@ -1,0 +1,42 @@
+.perfil_conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 35px 0;
+    color: var(--cor-tercearia);
+}
+
+.perfil_imagem{
+    position: absolute;
+    top: -50px;
+    width: 120px;
+    height: 120px;
+    background-image: url('../../assets/img/bechellidev.png');
+    border-radius: 50%;
+    border-color: var(--cor-tercearia);
+    background-size: cover;
+}
+
+.card_describe{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    max-width: 780px;
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.text{
+    margin-top: 80px;
+    color: var(--cor-bg);
+}
+
+.services{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
